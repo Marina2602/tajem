@@ -1,0 +1,164 @@
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0 70px 0;
+  position: relative;
+}
+
+.section-header {
+  padding-top: 15px;
+}
+
+.section-body {
+  height: 570px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-hero {
+  height: 640px;
+}
+
+.section-hero .section-content {
+  text-align: center;
+  height: 250px;
+  width: 770px;
+}
+
+.section-title {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  position: relative;
+  margin-bottom: 52px;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  background: #00e0d0;
+  left: 50%;
+  margin-left: -25px;
+  bottom: -25px;
+  width: 50px;
+  height: 1px;
+}
+
+.section-subtitle {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.section-description {
+}
+
+.section-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.section-background img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: #30235f;
+  opacity: 0.8;
+}
+
+.section-foreground {
+  position: relative;
+}
+
+.section-body .section-title {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.section-body .section-description {
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.section-story img {
+  width: 235px;
+  height: 229px;
+  display: flex;
+  justify-content: center;
+}
+
+.section-story .section-content {
+  text-align: left;
+}
+
+.section-watch {
+  padding: 202px 0;
+}
+
+.section-watch .section-subtitle {
+  color: #ffffff;
+  padding-top: 34px;
+  font-size: 16px;
+}
+
+.section-watch .section-content {
+  text-align: center;
+  height: 146px;
+  width: 156px;
+}
+
+.section-content {
+  text-align: center;
+}
+
+.section-team .section-content {
+  color: #ffffff;
+}
+
+.section-team .card-image {
+  height: 229px;
+}
+
+.section-tabs .section-content {
+  color: #ffffff;
+  width: 700px;
+  padding: 50px 0 100px 0;
+}
+
+.section-tabs .section-description::before {
+  content: "❝";
+  position: absolute;
+  bottom: 200px;
+  left: 50%;
+  font-size: 30px;
+}
+
+.section-works .section-content {
+  justify-content: center;
+  width: 940px;
+}
+
+.section-footer .section-subtitle {
+  color: #ffffff;
+  font-size: 15px;
+  padding-bottom: 40px;
+}
+
+.logo-footer {
+  padding-bottom: 22px;
+}
+
+.section-footer .section-description {
+  color: #ffffff;
+  font-weight: 300;
+}

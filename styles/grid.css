@@ -1,0 +1,97 @@
+.grid-wrapper {
+  overflow: hidden;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid-item {
+}
+
+.grid-large {
+  margin: 0 -50px;
+}
+
+.section-expertise .grid {
+  margin: -2px -35px;
+}
+
+.section-expertise .grid-item {
+  padding: 0 33px;
+  border-right: 2px solid #ebebeb;
+  border-bottom: 2px solid #ebebeb;
+}
+
+.section-team .grid {
+  padding-bottom: 70px;
+  margin: -10px;
+}
+
+.section-works img {
+  margin: 0;
+  padding: 0;
+  width: 267px;
+  height: 200px;
+}
+
+.grid-works {
+  font-size: 40px;
+  margin: 70px 0 35px 0;
+}
+
+.grid-works-head {
+  justify-content: space-between;
+  display: flex;
+}
+
+.grid-works-head .grid-item {
+  margin: 0;
+}
+
+.grid-client img {
+  width: 130px;
+  margin-top: 45px;
+}
+
+.grig-item-form {
+  padding-right: 80px;
+}
+
+.grid-section-form {
+  justify-content: space-between;
+  display: flex;
+}
+
+.grid-client .grid-item {
+  margin: 0;
+}
+
+.grid-footer {
+  padding-right: -35px;
+}
+
+.grid-footer .grid-item {
+  padding-right: 35px;
+}
+
+.grid-bottom {
+  padding-top: 70px;
+  justify-content: space-between;
+}
+
+.grid-bottom .section-subtitle {
+  padding-bottom: 0;
+}
+
+.grid-help {
+  margin-left: -30px;
+}
+
+.grid-help .grid-item {
+  padding-left: 30px;
+  margin: 0;
+}
+
+.grid-bottom .grid-item {
+  margin: 0;
+}

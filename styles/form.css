@@ -1,0 +1,92 @@
+.form {
+}
+.form-group {
+  margin-bottom: 40px;
+}
+.form-control {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.input,
+.select,
+.textarea {
+  max-width: 100%;
+  width: 100%;
+  height: 55px;
+  padding: 0 20px;
+  background-color: #fff;
+  color: #666;
+  border: 1px solid #e5e5e5;
+  margin: 0;
+  border-radius: 10px;
+  font-size: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+  outline: none;
+  background-color: #fff;
+  color: #666;
+  border-color: #1e87f0;
+}
+
+.input:disabled,
+.select:disabled,
+.textarea:disabled {
+  background-color: #f8f8f8;
+  color: #999;
+  border-color: #e5e5e5;
+}
+
+.input::placeholder {
+  color: #999;
+}
+
+.textarea::placeholder {
+  color: #999;
+}
+
+.input-danger,
+.input-danger:focus {
+  color: #f0506e;
+  border-color: #f0506e;
+}
+
+.input-success,
+.input-success:focus {
+  color: #32d296;
+  border-color: #32d296;
+}
+
+.form-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+}
+
+.form-icon:not(.form-icon-flip) ~ .input {
+  padding-left: 40px !important;
+}
+
+.form-icon-flip {
+  right: 0;
+  left: auto;
+}
+.form-icon-flip ~ .input {
+  padding-right: 40px !important;
+}
+
+.textarea {
+  resize: none;
+}
